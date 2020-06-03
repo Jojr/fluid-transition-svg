@@ -1,0 +1,52 @@
+{
+  "main": "./App.tsx",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "0.1.6",
+    "expo": "~37.0.3",
+    "expo-linear-gradient": "~8.1.0",
+    "lottie-react-native": "~2.6.1",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+    "react-native-gesture-handler": "~1.6.0",
+    "react-native-reanimated": "~1.7.0",
+    "react-native-safe-area-context": "0.7.3",
+    "react-native-screens": "~2.2.0",
+    "react-native-svg": "11.0.1",
+    "react-native-web": "~0.11.7",
+    "react-navigation": "^3.0.0",
+    "react-navigation-fluid-transitions": "^0.3.2",
+    "react-navigation-stack": "^1.0.6",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@types/react": "~16.9.23",
+    "@types/react-native": "~0.61.17",
+    "@types/react-redux": "^7.1.9",
+    "@types/redux-logger": "^3.0.8",
+    "@typescript-eslint/eslint-plugin": "^3.0.2",
+    "@typescript-eslint/parser": "^3.0.2",
+    "babel-preset-expo": "~8.1.0",
+    "eslint": "^7.1.0",
+    "eslint-config-universe": "^3.0.1",
+    "prettier": "^2.0.5",
+    "typesafe-actions": "^5.1.0",
+    "typescript": "~3.8.3"
+  },
+  "eslintConfig": {
+    "extends": "universe/native"
+  },
+  "private": true
+}
